@@ -1,0 +1,157 @@
+
+/* invisible full-width flex container  */
+.inv-cont {
+  display: flex;
+  justify-content: center;
+  width:  100%;
+  flex: 1 1 auto;
+  /* border: 2px solid blue; */
+}
+
+
+/*--------------------Body centered div-----------------*/
+.flex-container {
+  display: flex;
+  background: lightblue;
+  height: 300px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: lightcoral;
+  border: 4px solid coral;
+  margin: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+/*------------------Head1----------------------------*/
+
+.head-container{
+  display: flex;
+  background: peachpuff;
+  height: 120px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.head-holder {
+  display:  flex;
+  height: 80px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.head-item {
+  display:  flex;
+  background: white;
+  color:  blue;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  border-radius:  15%;
+
+  font-family: 'Anton';font-size: 28px;
+}
+
+/*------------------Head2-------------------------*/
+
+.slick-container {
+  display:  flex;
+  padding:  5px;
+  height:  100px;
+  justify-content: space-between;
+  align-items: center;
+  outline: 2px solid lightgray;
+}
+
+.slick-navgroup {
+  display: flex;
+  color: purple;
+  justify-content: start;
+  align-items: center;
+  gap:  5px;
+  font-family: 'Anton';font-size: 28px;
+}
+
+.slick-group1 {
+  width: 500px;
+}
+
+.slick-link {
+  padding:  4px;
+  font-size:  22px;
+}
+
+.slick-cname {
+  padding:  4px;
+  font-size:  28px;
+}
+
+.slick-notif {
+  background: purple;
+  color: white;
+  padding: 5px;
+  border-radius: 15%;
+  font-size:  16px;
+}
+
+.slick-icon {
+  background: purple;
+  height: 40px;
+  width:  40px;
+  border-radius: 50%;
+}
+
+.slick-block {
+  display: flex;
+  background: lightgray;
+  height: 40px;
+  outline: 2px solid lightgray;
+}
+
+.slick-logo {
+    height: 60px;
+    border-radius:  50%;
+}
+
+/*-----------------------------Information-----------------*/
+
+.info-head {
+  display: flex;
+  font-family: 'Anton';
+  font-size: 32px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.info-container {
+  display: flex;
+  width:  100%;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 32px;
+}
+
+.info-card {
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.info-text {
+  font-family: 'Anton';
+  font-size: 18px;
+  text-align: center;
+}
+
+.info-pic {
+  width: 200px;
+  border-radius: 15%;
+}

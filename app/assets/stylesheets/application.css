@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+.logo {
+    height: 80px;
+    border-radius:  50%;
+}
+
+.foodpic {
+    height: 450px;
+    width:  auto;
+    border-radius:  5%;
+}
