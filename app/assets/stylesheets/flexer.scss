@@ -1,125 +1,147 @@
-
-/* invisible full-width flex container  */
-.inv-cont {
-  display: flex;
-  justify-content: center;
-  width:  100%;
-  flex: 1 1 auto;
-  /* border: 2px solid blue; */
+.f-main {
+  justify-content: left;
+  font-family: arial;
+  margin: 0px;
 }
 
-
-/*--------------------Body centered div-----------------*/
-.flex-container {
+.f-navbar {
   display: flex;
-  background: lightblue;
-  height: 300px;
-  width: 350px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-
-/* this selector selects all divs inside of .flex-container */
-.flex-container div {
-  background: lightcoral;
-  border: 4px solid coral;
-  margin: 50px;
-  height: 100px;
-  width: 100px;
-}
-
-/*------------------Head1----------------------------*/
-
-.head-container{
-  display: flex;
-  background: peachpuff;
-  height: 120px;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
+  background: #1f2937;
+  padding: 10px 0px;
+  font-family: arial;
 }
 
-.head-holder {
-  display:  flex;
-  height: 80px;
-  gap: 10px;
-  justify-content: space-between;
+.f-headlinks {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
 }
 
-.head-item {
-  display:  flex;
-  background: white;
-  color:  blue;
-  width: 120px;
+.f-headlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex-shrink: 3;
+  margin-left: 50px;
+  margin-right: 100px;
+  min-width: 50%;
+  padding: 20px 50px;
+}
+
+.f-intro {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10rem;
+  background: #1f2937;
+  font-family: arial;
+
+}
+
+.f-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: flex-start;
+}
+
+.f-bigtext {
+  font-size: 48px;
+  font-style: extra-bold;
+  color: #f9faf8;
+}
+
+.f-sectext {
+  font-size: 18px;;
+  color: #e5e7eb;
+}
+
+.f-sign-up-button {
+  background: #3882f6;
+  border-radius: 15%;
+  color: #f9faf8;
+  margin: 2rem;
+  padding:  .5rem;;
+  width: 5rem;
+}
+
+.f-sign-up-button2 {
+  background: #3882f6;
+  border-radius: 15%;
+  color: #f9faf8;
+  margin: 2rem;
+  padding:  .5rem;
+  width: 5rem;
+  border: 2px solid white;
+}
+.f-mainimage {
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.f-qcard {
+  display: flex;
+  background: #e5e7eb;
+  color: #1f2937;
+  font-family: arial;
+  font-size: 34px;
+  font-style: italic;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   justify-content: center;
   align-items: center;
-  border-radius:  15%;
-
-  font-family: 'Anton';font-size: 28px;
+  border: 1px solid blue;
 }
 
-/*------------------Head2-------------------------*/
-
-.slick-container {
-  display:  flex;
-  padding:  5px;
-  height:  100px;
-  justify-content: space-between;
-  align-items: center;
-  outline: 2px solid lightgray;
-}
-
-.slick-navgroup {
+.qflex {
   display: flex;
-  color: purple;
-  justify-content: start;
-  align-items: center;
-  gap:  5px;
-  font-family: 'Anton';font-size: 28px;
+  flex-direction: column;
+  min-width: 40rem;
+  max-width: 60rem;
+  border: 1px solid red;
 }
 
-.slick-group1 {
-  width: 500px;
+.f-credit {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 5rem;
 }
 
-.slick-link {
-  padding:  4px;
-  font-size:  22px;
-}
-
-.slick-cname {
-  padding:  4px;
-  font-size:  28px;
-}
-
-.slick-notif {
-  background: purple;
-  color: white;
-  padding: 5px;
-  border-radius: 15%;
-  font-size:  16px;
-}
-
-.slick-icon {
-  background: purple;
-  height: 40px;
-  width:  40px;
-  border-radius: 50%;
-}
-
-.slick-block {
+.f-callact {
   display: flex;
-  background: lightgray;
-  height: 40px;
-  outline: 2px solid lightgray;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  gap: 2rem;
+  padding: 5rem;
 }
 
-.slick-logo {
-    height: 60px;
-    border-radius:  50%;
+.f-callcard {
+  display: flex;
+  flex-direction: column;
+  background: #3882F6;
+  color: #f9faf8;
+  min-width: 40rem;
+  max-width: 60rem;
+  border-radius: 5%;
+  padding: 5rem;
 }
 
+.f-calltitle {
+  font-size: 24px;
+}
+
+.f-calltext {
+  font-size: 18px;
+  font-style: italic;
+}
 /*-----------------------------Information-----------------*/
 
 .info-head {
@@ -137,6 +159,7 @@
   justify-content: center;
   gap: 52px;
   margin-top: 32px;
+  padding-bottom: 50px;
 }
 
 .info-card {
@@ -154,4 +177,5 @@
 .info-pic {
   width: 200px;
   border-radius: 15%;
+  border: 4px solid #3882f6;
 }

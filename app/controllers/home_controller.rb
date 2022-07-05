@@ -4,8 +4,5 @@ class HomeController < ApplicationController
 
   def about
   end
-
-  def csstest
-  end
   
 end
