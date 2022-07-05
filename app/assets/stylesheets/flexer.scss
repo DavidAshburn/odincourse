@@ -14,8 +14,19 @@
   font-family: arial;
 }
 
+.f-headlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex: 2 10 0;
+  margin-left: 50px;
+  min-width: 20%;
+  max-width: 50%;
+  padding: 20px 50px;
+}
+
 .f-headlinks {
   display: flex;
+  flex: 1 1 0;
   font-size: 18px;
   color: #e5e7eb;
   gap: 1rem;
@@ -23,16 +34,6 @@
   padding: 0;
   list-style: none;
   flex-wrap: wrap;
-}
-
-.f-headlogo {
-  font-size: 24px;
-  color: #f9faf8;
-  flex-shrink: 3;
-  margin-left: 50px;
-  margin-right: 100px;
-  min-width: 50%;
-  padding: 20px 50px;
 }
 
 .f-intro {
@@ -65,25 +66,30 @@
 
 .f-sign-up-button {
   background: #3882f6;
-  border-radius: 15%;
+  border-radius: 10px;
   color: #f9faf8;
   margin: 2rem;
-  padding:  .5rem;;
-  width: 5rem;
+  padding-left:  .7rem;
+  padding-top:  .7rem;
+  padding-bottom:  .7rem;
+  padding-right:  .3rem;
+  width: 4rem;
 }
 
 .f-sign-up-button2 {
   background: #3882f6;
-  border-radius: 15%;
+  border-radius: 10px;
   color: #f9faf8;
   margin: 2rem;
-  padding:  .5rem;
-  width: 5rem;
+  padding-left:  .7rem;
+  padding-top:  .7rem;
+  padding-bottom:  .7rem;
+  padding-right:  .3rem;
+  width: 4rem;
   border: 2px solid white;
 }
 .f-mainimage {
-  width: 400px;
-  flex-shrink: 0;
+  flex: 0 0 400px;
 }
 
 .f-qcard {
@@ -91,13 +97,12 @@
   background: #e5e7eb;
   color: #1f2937;
   font-family: arial;
-  font-size: 34px;
+  font-size: 28px;
   font-style: italic;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
 }
 
 .qflex {
@@ -105,7 +110,6 @@
   flex-direction: column;
   min-width: 40rem;
   max-width: 60rem;
-  border: 1px solid red;
 }
 
 .f-credit {
@@ -130,7 +134,7 @@
   color: #f9faf8;
   min-width: 40rem;
   max-width: 60rem;
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 5rem;
 }
 
@@ -176,6 +180,11 @@
 
 .info-pic {
   width: 200px;
-  border-radius: 15%;
+  border-radius: 10px;
   border: 4px solid #3882f6;
+}
+
+/*-----------------------------Samara classes-----------------*/
+.nav-link {
+  color: #e5e7eb;
 }
